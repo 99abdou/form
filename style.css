@@ -1,0 +1,347 @@
+*{
+    box-sizing: border-box;
+    /* outline: 1px solid rgb(255, 246, 70); */
+    margin: 0;
+    padding: 0;
+} 
+
+body{
+    /* background-color: #FFF; */
+    font-family: sans-serif;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 79vh;
+    background-image: url(image1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.container{
+    margin-top: 10%;
+    width: 65%;
+    height: 90%;
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: row;
+
+}
+
+:required{
+    border-color: red;
+}
+
+
+.flex{
+    padding-left: 13%; 
+    margin-right: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    padding-right: 12.1%;
+    justify-content: center; 
+}
+
+
+
+.photo{
+    width: 99%;
+    height: 100%;
+}
+
+.photo h1{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    color: #FFF;
+}
+.img{
+    /* width: 100%; */
+    height: 100%;
+}
+/*
+.parti-1 i{
+    left: 80%;
+    bottom: 81%;
+    color: red;
+    font-size: 20px;
+
+}*/
+
+
+.parti-1{
+    margin-top: 5%;
+    width: 60%;
+    height: 95%;
+    margin-right: 18%;
+    padding: 0;
+   
+}
+
+.mon-parti{
+    width: 60%;
+    height: 50%;;
+    margin-bottom: 55%;
+    margin-top: 15%;
+    margin-left: 1%;
+    /* background-color: blue;*/
+}
+
+ #cash, #cheque, #demand-draf{ 
+   width: 25px;
+   padding-right: 5px;
+   padding-left: 1px; 
+   font-size: 15px;
+   font-weight: bold;
+   /* height: 40px;*/
+   padding-top: 5px;
+   padding-bottom: 10px;
+   margin-bottom: 5%; 
+}
+
+.parti-1 input{
+    margin-top: 2%;
+    width: 500px;
+    height: 75px;
+    margin-bottom: 5%;
+    border-radius: 5px 5px 5px 5px;
+    /* padding: 5px; */
+}
+
+
+.mon-parti input{
+    margin-top: 3%;
+    margin-bottom: 5%;
+    width: 450px;
+    height: 70px;
+    border-radius: 5px 5px 5px 5px; 
+}
+
+.name {
+    margin-right: 30%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.company{
+    margin-right: 30%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.email{
+    margin-right: 300%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.numero{
+    margin-right: 30%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pay{
+    margin-right: 30%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dd{
+    margin-right: 50%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bank{
+    width: 50%;
+    margin-right: 50%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.maile{
+    float: right;
+    font-size: 15px;
+    padding-right: 15%;
+    text-decoration: underline;
+}
+
+.payes{
+    float: right;
+    font-size: 15px;
+    padding-right: 15%;
+    text-decoration: underline;
+    
+} 
+
+
+.meale{
+    padding-left: 10%;
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    /* margin-top: 5%; */
+}
+
+.mode{
+    padding-left: 10%;
+    float: left;
+    font-weight: bold;
+    font-size: 16.6px;
+    /* margin-top: 5%; */
+}
+/*
+#name{
+    border-color: aqua;
+}
+
+#last-name::before{
+    border-color: red;
+}*/
+
+ #first-name, #last-name, #company, #email, #phone-number {
+    margin-left: 3%;  
+} 
+
+#cash1, #cheque1, #demand-draf1{
+   margin-top: -5%;
+  
+}
+/*
+#meal-preference{
+    margin-top: 50px;
+}
+
+#cheque-dd{
+    margin-left: 5%;
+}
+
+#Pey{
+    margin-right: 1px;
+    margin-left: 9%;
+}
+#bank{
+    margin-left: 10%;
+}
+
+#mail{
+    margin-left: 10%;
+}
+
+label{
+    display: inline-block;
+    width: 50%;
+    padding: 15px;
+} */
+
+
+#donnates{
+    border: none;
+    border-top-style: groove ;
+    border-color: rgb(12, 171, 118);
+    margin-left: 5%;
+    width: 110%;
+}
+
+.donnates1{
+    margin-right: 10%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.donal{
+    margin-top: 5%;
+    width: 100%; 
+}
+
+.mon-donal{
+  
+    margin-top: 15%;
+}
+
+.donateus{
+    display: inline;
+    top: 21%;
+}
+#donnates2{
+   width: 110%;
+   margin-top: 6.1%;
+   margin-right: 15%;
+   /*margin-left: 55%; */
+   border: none;
+   border-top: 2px solid black;
+} 
+
+.money{
+    margin-top: 30%;
+    margin-bottom: 20%;
+    float: right;
+    font-size: 15px;
+    width: 5%;
+    color: #FFF;
+    font-weight: bold;
+    background-color: rgb(12, 171, 118);
+}
+
+#submit{
+    padding: 15px;
+    padding-bottom: 7%;
+    padding-top: 3%;
+    font-size: 20px;
+    color: #FFF;
+    background-color: rgb(12, 171, 118);
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border-color: aqua;
+    box-shadow: 4px; 
+    width: 30%;
+    margin-top: 65px;
+  
+}
+
+#reset{
+    padding: 15px;
+    padding-bottom: 7%;
+    padding-top: 3%;
+    margin-left: 5%;
+    font-size: 20px;
+    color: aqua;
+    background-color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 5px;
+    width: 30%;
+    border-color: aqua;
+    margin-top:0;
+    margin-left: 10%;
+}
+
+ button{
+    padding: 7px 2%;
+    border: 1px solid black;
+    position: absolute;
+    left: 65%;
+    font-size: 25px;
+    top: 66%;
+    color: #FFF;
+    background-color: rgb(12, 171, 118);
+} 
+
+
+@media (max-width: 2496px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    button{
+        align-items: center;
+        top: 115%;
+    }
+}
